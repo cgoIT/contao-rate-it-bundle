@@ -136,7 +136,7 @@ class tl_module_rateit extends DcaHelper {
 			$intPid = $this->Input->get('id');
 		}
 
-		return $this->getTemplateGroup('mod_rateit_top', $intPid);
+		return $this->getTemplateGroup('mod_rateit_top');
 	}
 }
 ?>
